@@ -1,8 +1,15 @@
 aid: sanlo
 name: Sanlo
-description: 'Sanlo is a company surfaced as a portfolio company of index-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: entertainment. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Sanlo is a multi-platform payments and monetization platform built specifically
+  for game developers and studios. Its products let studios run live ops and accept
+  payments outside the walled gardens of the major app stores to reduce platform commission
+  fees: Webshop Builder (a full-stack direct-to-consumer web shop), Web Checkout (accept
+  payments on any website, web shop, or web game), and Unity Checkout (native iOS/Android
+  in-game checkout for Unity titles via a first-party SDK and API, with one-click checkout,
+  fully customizable UI, and creator-code support). Card and payment collection is
+  powered by Adyen underneath. Sanlo also offers game funding to help studios finance
+  user acquisition and growth. The company is backed by Index Ventures and other gaming-focused
+  investors.'
 url: https://raw.githubusercontent.com/api-evangelist/sanlo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,32 @@ x-backed-by:
 - index-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://framerusercontent.com/assets/xZkZn8UGtHjCO3Xfj0sEn6hVyi0.png
 tags:
 - Company
 - Entertainment
+- Gaming
+- Payments
+- Monetization
+- Checkout
+- Fintech
+- Games
+- SDK
+- Web Checkout
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +51,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://sanlo.io
+  url: https://www.sanlo.io
+- type: Support
+  url: https://www.sanlo.io/contact-us
+- type: Blog
+  url: https://www.sanlo.io/resources
+- type: TermsOfService
+  url: https://www.sanlo.io/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.sanlo.io/privacy-policy
+- type: Packages
+  url: packages/sanlo-packages.yml
+- type: SDKs
+  url: packages/sanlo-packages.yml
+- type: Components
+  url: components/sanlo-components.yml
+- type: DomainSecurity
+  url: security/sanlo-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

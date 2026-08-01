@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.npmjs.com/package/@sanlo/ui-components
+description: Sanlo ships client-side / embeddable checkout UI surfaces for game developers.
+  These are prebuilt payment and monetization components rather than server-side SDKs.
+families:
+- name: Web Checkout
+  kind: embedded-checkout
+  summary: Drop-in checkout UI that accepts payments on a website, web shop, or web
+    game, bypassing app-store walled gardens. Delivered via the @sanlo/checkout-web
+    SDK loader; card/payment collection is powered by Adyen Web underneath.
+  loader: "@sanlo/checkout-web"
+  url: https://www.sanlo.io/web-checkout
+- name: Unity Checkout
+  kind: native-checkout
+  summary: Native iOS/Android in-game checkout UI for Unity titles, with one-click
+    checkout, fully customizable UI (text/colors/images), and creator-code support.
+    Integrated via Sanlo's Unity SDK.
+  url: https://www.sanlo.io/unity-checkout
+- name: Webshop Builder
+  kind: hosted-storefront
+  summary: Full-stack direct-to-consumer (D2C) web shop builder — a hosted, brandable
+    storefront surface for selling in-game items outside the app stores.
+  url: https://www.sanlo.io/webshop
+- name: Sanlo UI Components
+  kind: react-component-library
+  summary: Shared React component library (Chakra UI + Emotion + Framer Motion) backing
+    Sanlo's checkout and dashboard surfaces.
+  loader: "@sanlo/ui-components"
+  url: https://www.npmjs.com/package/@sanlo/ui-components
+notes: Integration/setup docs for these components are gated behind sales; only the
+  npm loader libraries are public.

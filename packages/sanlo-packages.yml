@@ -1,0 +1,39 @@
+generated: '2026-07-21'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=sanlo
+packages:
+- language: javascript
+  registry: npm
+  name: "@sanlo/checkout-web"
+  url: https://www.npmjs.com/package/@sanlo/checkout-web
+  install: npm install @sanlo/checkout-web
+  version: 0.0.7
+  license: ISC
+  description: Sanlo Checkout Web SDK — embeds Sanlo Web Checkout into websites, web
+    shops, and web games. Wraps Adyen Web (@adyen/adyen-web) for card/payment collection.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@sanlo/ui-components"
+  url: https://www.npmjs.com/package/@sanlo/ui-components
+  install: npm install @sanlo/ui-components
+  version: 0.1.7
+  license: ISC
+  description: SanloUIComponents — Sanlo's shared React UI component library (Chakra
+    UI + Emotion + Framer Motion) used across its checkout and dashboard surfaces.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@sanlo-dev/react-sdk"
+  url: https://www.npmjs.com/package/@sanlo-dev/react-sdk
+  install: npm install @sanlo-dev/react-sdk
+  version: 0.0.52
+  license: ISC
+  description: SanloSDK — earlier first-party React SDK (axios-based). Legacy; last
+    published 2023. Retained for provenance.
+  official: true
+notes: Discovered via the public npm registry under the @sanlo / @sanlo-dev scopes.
+  No PyPI, Maven, NuGet, Go, RubyGems, Packagist, or crates.io first-party package
+  found. Sanlo publishes no public developer docs, OpenAPI, or SDK reference page —
+  the Unity/Web/Webshop Checkout products cite "our simple SDK and APIs" but gate
+  all technical documentation behind sales ("Get in touch").
